@@ -1,0 +1,143 @@
+button{
+    width: 300px;
+    height: 45px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid;
+    border-color: rgb(141, 139, 139);
+}
+
+
+h1{
+    font-size: 66px;
+}
+h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+p{
+    max-width: 70%;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    background-image: url("images/logo.png");
+    background-size: cover;
+    height: 700px;
+    margin-right: 20px;
+}
+
+@media only screen and (max-width: 950px){
+    .logo{
+        height: 900px;
+        margin-top: 20px;
+    }
+    .row{
+        flex-direction: column-reverse;
+    } 
+    button{
+        width: 400px;
+        height: 50px;
+    }
+    p{
+        font-size: 18px;
+        max-width: 55%;
+    }   
+}
+
+@media only screen and (max-width: 768px){
+    .logo{
+        height: 720px;
+        margin-top: 20px;
+    }
+    .row{
+        flex-direction: column-reverse;
+    } 
+    button{
+        width: 400px;
+        height: 50px;
+    }
+    p{
+        font-size: 18px;
+        max-width: 70%;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    .logo{
+        height: 411px;
+        width: 411x;
+    }
+
+    button{
+        width: 300px;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .row{
+        flex-direction: column-reverse;
+    }
+
+    p{
+        max-width: 90%;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .logo{
+        height: 360px;
+        width: 360px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    button{
+        width: 280px;
+        height: 40px;
+    }
+    p{
+        font-size: 12px;
+        max-width: 80%;
+    }
+    .row{
+       flex-direction: column-reverse;
+    }
+    .input{
+        width: 360px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .logo{
+        height: 320px;
+    }
+}
+
+@media only screen and (max-width: 280px){
+    .logo{
+        height: 280px;
+        width: 280px;
+    }
+    button{
+        width: 250px;
+        height: 40px;
+        font-size: 14px;
+    }
+    h2{
+        font-size: 25px;
+    }
+}
+
+
+.twitter{
+    margin-top: 30px;
+}
